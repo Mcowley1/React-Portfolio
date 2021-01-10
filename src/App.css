@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,10 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+body {
+  background-color: black;
+  color: white;
+  background-image: url(./assets/lightroom-export-2.jpg);
 }
