@@ -4,6 +4,8 @@ import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Zoom from 'react-reveal/Zoom';
 
+
+
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -16,7 +18,11 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: '20px',
     marginRight: '20px'
   },
+  color: {
+      background: 'blue'
+  }
 }));
+
 
 export default function AutoGrid() {
   const classes = useStyles();
