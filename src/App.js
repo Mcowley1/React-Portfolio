@@ -2,6 +2,7 @@ import React from 'react';
 import About from './components/About';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
+import Grid from './components/Grid';
 import './App.css';
 
 function App() {
@@ -10,8 +11,12 @@ function App() {
       <Nav></Nav>
       <main>
         <About></About>
+        <br />
+        <Grid></Grid>
       </main>
-      <Footer></Footer>
+      <footer className="footer1">
+        <Footer></Footer>
+      </footer>
     </div>
   );
 }
