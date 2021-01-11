@@ -2,10 +2,13 @@ import React from 'react';
 
 function Nav() {
 
-
+  const style = {
+      backgroundColor: 'black',
+      opacity: '0.5',
+  }
 
     return(
-        <header>
+        <header style={style}>
             <h1>
                 <a href="#">Matthew's Portfolio</a>
             </h1>

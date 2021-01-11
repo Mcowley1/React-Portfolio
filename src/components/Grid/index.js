@@ -12,6 +12,9 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(2),
     textAlign: 'center',
     color: theme.palette.text.secondary,
+    height: '90px',
+    marginLeft: '20px',
+    marginRight: '20px'
   },
 }));
 
@@ -21,26 +24,26 @@ export default function AutoGrid() {
   return (
     <Zoom>
     <div className={classes.root}>
-      <Grid container spacing={3}>
+      <Grid container spacing={7}>
         <Grid item xs>
-          <Paper className={classes.paper}>xs</Paper>
+          <Paper className={classes.paper}><a href="https://mcowley1.github.io/Cocktail-U/">CockTail-U</a></Paper>
         </Grid>
         <Grid item xs>
-          <Paper className={classes.paper}>xs</Paper>
+          <Paper className={classes.paper}><a href="https://langmentor.herokuapp.com/">LangMentor</a></Paper>
         </Grid>
         <Grid item xs>
-          <Paper className={classes.paper}>xs</Paper>
+          <Paper className={classes.paper}><a href="https://mcowley1.github.io/timed-quiz/">Timed-Quiz</a></Paper>
         </Grid>
       </Grid>
-      <Grid container spacing={3}>
+      <Grid container spacing={7}>
         <Grid item xs>
-          <Paper className={classes.paper}>xs</Paper>
+          <Paper className={classes.paper}><a href="https://style-blog.herokuapp.com/">Tech-blog</a></Paper>
         </Grid>
         <Grid item xs={6}>
-          <Paper className={classes.paper}>xs=6</Paper>
+          <Paper className={classes.paper}><a href="https://mcowley1.github.io/taskmaster-pro/">taskmaster-pro</a></Paper>
         </Grid>
         <Grid item xs>
-          <Paper className={classes.paper}>xs</Paper>
+          <Paper className={classes.paper}><a href="https://mcowley1.github.io/run-buddy/">run-buddy</a></Paper>
         </Grid>
       </Grid>
     </div>
