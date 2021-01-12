@@ -14,4 +14,4 @@
 [React-portfolio](https://mcowley1.github.io/React-Portfolio/)
 
 ## ScreenShot
-![ScreenShot]()
+![ScreenShot](screenshot.png)
