@@ -3,6 +3,7 @@ import About from './components/About';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Grid from './components/Grid';
+import GlassCard from './components/Glass';
 import './App.css';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Nav></Nav>
       <main>
         <About></About>
+        <GlassCard />
         <br />
         <Grid></Grid>
       </main>
