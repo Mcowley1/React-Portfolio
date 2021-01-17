@@ -16,6 +16,7 @@ const Container = styled(animated.div)`
   border: 2px solid transparent;
   background-clip: border-box;
   cursor: pointer;
+  margin-top: 30px;
 `;
 
 const StyledImg = styled.img`
@@ -41,6 +42,7 @@ const GlassCard = () => {
         >
             <StyledImg src={profile} />
             <h3>Full Stack Developer</h3>
+            <h4>Matthew Cowley</h4>
         </Container>
     );
 }

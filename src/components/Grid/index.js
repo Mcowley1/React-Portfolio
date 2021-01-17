@@ -23,7 +23,8 @@ const useStyles = makeStyles((theme) => ({
     color: theme.palette.text.secondary,
     height: '100px',
     marginLeft: '20px',
-    marginRight: '20px'
+    marginRight: '20px',
+    marginTop: '30px'
   },
   color: {
       background: 'blue'
