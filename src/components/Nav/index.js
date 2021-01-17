@@ -13,6 +13,7 @@ function Nav() {
   const style2 = {
       display: 'flex',
       justifyContent: 'space-between',
+      listStyle: 'none'
   }
 
     return(
@@ -23,10 +24,10 @@ function Nav() {
             </h1>
             <nav>
                 <ul style={style2}>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="about">About Me</a></li>
+                    <li><a href="grid">Grid</a></li>
                     <li><a href="#">Resume</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="contact">Contact</a></li>
                 </ul>
             </nav>
         </header>

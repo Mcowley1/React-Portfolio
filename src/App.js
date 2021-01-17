@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import About from './components/About';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
@@ -8,18 +9,21 @@ import './App.css';
 
 function App() {
   return (
+    <Router>
     <div>
       <Nav></Nav>
       <main>
-        <About></About>
-        <GlassCard />
-        <br />
-        <Grid></Grid>
+        <GlassCard></GlassCard>
+        <Switch>
+          <Route path="/about" component={About}></Route>
+          <Route path="/grid" component={Grid}></Route>
+        </Switch>
       </main>
       <footer className="footer1">
         <Footer></Footer>
       </footer>
     </div>
+    </Router>
   );
 }
 
