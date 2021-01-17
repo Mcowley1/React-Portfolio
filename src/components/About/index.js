@@ -5,8 +5,11 @@ function About() {
     return(
         <Zoom>
         <section className="aboutMe">
-            <h1 id='about'>WELCOME</h1>
-            <p> To Matthew's Coding World</p>
+            <h1 id='about'>About me</h1>
+            <p>
+            lorem ipsum
+            </p>
+
         </section>
         </Zoom>
     );
