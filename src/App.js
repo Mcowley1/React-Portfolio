@@ -5,7 +5,6 @@ import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Grid from './components/Grid';
 import GlassCard from './components/Glass';
-import Portfolio from './components/Portfolio';
 import ContactList from './components/Contact';
 import './App.css';
 
